@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459828150821",
+    "project_id": "b2023-gr2sw-rrgg",
+    "storage_bucket": "b2023-gr2sw-rrgg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459828150821:android:3af529f6c80ba50235f5cc",
+        "android_client_info": {
+          "package_name": "com.example.b2023gr2sw"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9dUNs1AzX8B5Xm6osKFKHJUFxgK6rFSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
