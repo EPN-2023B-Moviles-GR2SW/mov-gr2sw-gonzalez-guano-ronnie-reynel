@@ -23,6 +23,7 @@ import com.example.b2023gr2sw.ui.theme.B2023gr2swTheme
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
+
     val callbackContenidoIntentExplicito =
         registerForActivityResult(
             ActivityResultContracts.StartActivityForResult()

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8935fa3-f1e5-4ffe-9c1d-8a8b1e8d7298" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../03-Deber/untitled/src/main/kotlin/GestorEspacial.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-Deber/untitled/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-Deber/untitled/src/main/kotlin/Planeta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-Deber/untitled/src/main/kotlin/SistemaSolar.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Android/app/src/main/java/com/example/b2023gr2sw/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-Android/app/src/main/java/com/example/b2023gr2sw/MainActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,9 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -80,6 +88,8 @@
       <workItem from="1704766262949" duration="4034000" />
       <workItem from="1704933600540" duration="1480000" />
       <workItem from="1704995259737" duration="11639000" />
+      <workItem from="1705815233784" duration="162000" />
+      <workItem from="1705817772138" duration="458000" />
     </task>
     <servers />
   </component>

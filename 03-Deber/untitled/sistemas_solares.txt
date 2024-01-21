@@ -1,0 +1,5 @@
+1,Sistema Solar,2024-01-20,8,false
+  - 1,Tierra,Terrestre,1.0,true
+  - 2,Marte,Terrestre,1.5,false
+2,Alpha Centauri,2023-12-10,2,true
+  - 3,Proxima b,Exoplaneta,0.5,true

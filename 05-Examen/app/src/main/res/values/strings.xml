@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">05-Examen</string>
+    <string name="titulo">Gestor de Sistemas Solares</string>
+    <string name="ver_planetas">Ver planetas</string>
+    <string name="agregar">Agregar Sistema Solar</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="title_activity_agregar_sistemas">AgregarSistema</string>
+</resources>
