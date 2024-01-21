@@ -72,11 +72,11 @@ class BListView : AppCompatActivity() {
     override fun onContextItemSelected(item: MenuItem): Boolean {
         return when (item.itemId){
             R.id.mi_editar -> {
-                mostrarSnackBar("$(posicionItemSeleccionado)")
+                mostrarSnackBar("${posicionItemSeleccionado}")
                 return true
             }
             R.id.mi_eliminar -> {
-                mostrarSnackBar("$(posicionItemSeleccionado)")
+                mostrarSnackBar("${posicionItemSeleccionado}")
                 abrirDialogo()
                 return true
             }
@@ -110,15 +110,12 @@ class BListView : AppCompatActivity() {
             opciones,
             seleccionPrevia,
             { dialog, which, isChecked ->
-                mostrarSnackBar("Item: $(which)")
+                mostrarSnackBar("Item: ${which}")
             }
         )
         val dialogo = builder.create()
         dialogo.show()
     }
-
-
-
 
     fun mostrarSnackBar(texto: String){
         val snack = Snackbar.make(findViewById(R.id.lv_list_view),
