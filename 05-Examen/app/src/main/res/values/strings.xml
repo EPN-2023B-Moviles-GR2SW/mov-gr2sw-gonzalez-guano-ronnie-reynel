@@ -6,4 +6,6 @@
     <string name="modificar">Modificar</string>
     <string name="eliminar">Eliminar</string>
     <string name="title_activity_agregar_sistemas">AgregarSistema</string>
+    <string name="planetas">Lista de planetas</string>
+    <string name="agregar_planeta">Agregar Planeta</string>
 </resources>

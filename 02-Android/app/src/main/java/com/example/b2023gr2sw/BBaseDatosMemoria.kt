@@ -2,7 +2,7 @@ package com.example.b2023gr2sw
 
 class BBaseDatosMemoria {
     companion object{
-        val arregloBEntrenador = arrayListOf<BEntrenador>()
+            val arregloBEntrenador = arrayListOf<BEntrenador>()
         init {
             arregloBEntrenador
                 .add(

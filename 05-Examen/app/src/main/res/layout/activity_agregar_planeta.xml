@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarPlaneta">
+
+    <CheckBox
+        android:id="@+id/cb_habitable_agr_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="¿Planeta Habitable?"
+        app:layout_constraintEnd_toEndOf="@+id/et_distancia_agr_plan"
+        app:layout_constraintStart_toStartOf="@+id/et_distancia_agr_plan"
+        app:layout_constraintTop_toBottomOf="@+id/et_distancia_agr_plan" />
+
+    <EditText
+        android:id="@+id/et_nombre_agr_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=" Nombre Planeta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:text="Agregar Planeta"
+        app:layout_constraintBottom_toTopOf="@+id/et_nombre_agr_plan"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre_agr_plan"
+        app:layout_constraintStart_toStartOf="@+id/et_nombre_agr_plan" />
+
+    <Button
+        android:id="@+id/btn_aceptar_agr_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="Aceptar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cancelar_agr_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_tipo_agr_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Tipo de Planeta"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre_agr_plan"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_nombre_agr_plan"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre_agr_plan" />
+
+    <EditText
+        android:id="@+id/et_distancia_agr_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Distancia al sol"
+        app:layout_constraintEnd_toEndOf="@+id/et_tipo_agr_plan"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_tipo_agr_plan"
+        app:layout_constraintTop_toBottomOf="@+id/et_tipo_agr_plan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

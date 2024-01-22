@@ -13,17 +13,30 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
+            android:name=".AgregarPlaneta"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarPlaneta"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarSistema"
+            android:exported="false" />
+        <activity
+            android:name=".LVPlanetas"
+            android:exported="false" />
+        <activity
             android:name=".AgregarSistemas"
-            android:exported="false"
-            android:label="@string/title_activity_agregar_sistemas"/>
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

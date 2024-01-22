@@ -6,6 +6,6 @@
         android:id="@+id/mi_modificar_planeta"
         android:title="@string/modificar" />
     <item
-        android:id="@mi_eliminar_planeta"
+        android:id="@+id/mi_eliminar_planeta"
         android:title="@string/eliminar" />
 </menu>
