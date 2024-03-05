@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_layout_planeta_editar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanetaEditar">
+
+    <TextView
+        android:id="@+id/tv_nompre_planeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Nombre del planeta:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_nombre_planeta"
+        app:layout_constraintEnd_toEndOf="@+id/input_nombre_planeta"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input_nombre_planeta" />
+
+    <TextView
+        android:id="@+id/tv_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:text="Tipo:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/input_tipo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Tipo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tipo" />
+
+    <Switch
+        android:id="@+id/input_habitable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="¿Es habitable?"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/input_distancia"
+        app:layout_constraintStart_toStartOf="@+id/input_distancia"
+        app:layout_constraintTop_toBottomOf="@+id/input_distancia" />
+
+    <EditText
+        android:id="@+id/input_distancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_distancia" />
+
+    <EditText
+        android:id="@+id/input_nombre_planeta"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/tv_tipo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <Button
+        android:id="@+id/btn_actualizar_planeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Actualizar"
+        app:layout_constraintEnd_toEndOf="@+id/input_habitable"
+        app:layout_constraintStart_toStartOf="@+id/input_habitable"
+        app:layout_constraintTop_toBottomOf="@+id/input_habitable" />
+
+    <TextView
+        android:id="@+id/tv_distancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Distancia al Sol"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/input_distancia"
+        app:layout_constraintTop_toBottomOf="@+id/input_tipo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

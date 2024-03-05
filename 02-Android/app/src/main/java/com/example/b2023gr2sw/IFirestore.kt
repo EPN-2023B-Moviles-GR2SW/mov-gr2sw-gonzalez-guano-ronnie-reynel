@@ -176,8 +176,6 @@ class IFirestore : AppCompatActivity() {
             ),
             "materias" to listOf("web", "moviles")
         )
-
-
         // identificador quemado (crear/actualizar)
         referenciaEjemploEstudiante
             .document("12345678")
