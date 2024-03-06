@@ -51,11 +51,6 @@ class NuevoVoluntario : AppCompatActivity() {
                 .addOnSuccessListener {}
                 .addOnFailureListener {
                 }
-
-            val botonHome = findViewById<LinearLayout>(R.id.home)
-            botonHome.setOnClickListener {
-                irActividad(MainActivity::class.java)
-            }
         }
     }
 
